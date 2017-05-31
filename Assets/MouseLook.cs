@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class MouseLook : MonoBehaviour {
 
@@ -13,8 +14,10 @@ public class MouseLook : MonoBehaviour {
     public float minimumY = -60F;
     public float maximumY = 60F;
     float rotationY = 0F;
+
     void Update()
     {
+		Debug.Log (gameObject.GetComponent<VideoPlayer> ().time);
         if (axes == RotationAxes.MouseXAndY)
         {
             float rotationX = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivityX;

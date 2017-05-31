@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 66d803d3c25d27146b57d7275d116414
-timeCreated: 1495909287
+guid: df6ac642bb365466b829ee26b651b716
+timeCreated: 1496193033
 licenseType: Free
 VideoClipImporter:
   serializedVersion: 2
@@ -13,7 +13,7 @@ VideoClipImporter:
   startFrame: -1
   endFrame: -1
   frameCount: 2037
-  frameRate: 29.4305477142334
+  frameRate: 29.440628051757812
   colorSpace: 0
   deinterlace: 0
   sourceFileSize: 169401994
@@ -26,7 +26,7 @@ VideoClipImporter:
   sourceAudioSampleRate: 80bb0000
   targetSettings: {}
   output:
-    format: 1
+    format: 0
     settings:
       enableTranscoding: 0
       codec: 0
