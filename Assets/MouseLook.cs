@@ -20,7 +20,7 @@ public class MouseLook : MonoBehaviour {
 		Debug.Log (gameObject.GetComponent<VideoPlayer> ().time);
         if (axes == RotationAxes.MouseXAndY)
         {
-            float rotationX = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivityX;
+            float rotationX = transform.localEulerAngles.y + Input.GetAxis("Horizontal") * sensitivityX;
 
             rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
             rotationY = Mathf.Clamp(rotationY, minimumY, maximumY);
